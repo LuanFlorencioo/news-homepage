@@ -2,26 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer components {
+  .font-title-100 {
+    @apply font-extrabold text-[40px];
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .font-title-200 {
+    @apply font-bold text-[28px];
+  }
+
+  .font-title-300 {
+    @apply font-extrabold text-xl;
+  }
+
+  .font-title-400 {
+    @apply font-extrabold text-lg;
+  }
+
+  .font-text-normal {
+    @apply font-normal text-[15px] leading-5;
+  }
+
+  .font-text-button {
+    @apply font-bold text-[15px] tracking-[1.5px] uppercase;
+  }
+
+  .font-text-numeric {
+    @apply font-bold text-[32px];
+  }
+
+  .font-text-link {
+    @apply font-bold text-lg;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #FFFDFA;
 }
