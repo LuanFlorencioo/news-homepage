@@ -20,7 +20,7 @@
   }
 
   .font-text-normal {
-    @apply font-normal text-[15px] leading-5;
+    @apply font-normal text-[15px] leading-[24px];
   }
 
   .font-text-button {
