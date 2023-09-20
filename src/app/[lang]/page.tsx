@@ -1,6 +1,6 @@
-import { Aside, MainArticle, Trendings } from "@/components";
 import { Locale } from "../../../i18n-config";
 import { getDictionary } from "../../../lib/get-dictionary";
+import { Aside, MainArticle, Trendings } from "@/components";
 
 export default async function Homepage({
   params: { lang },

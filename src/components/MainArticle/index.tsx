@@ -1,6 +1,6 @@
-import Image from "next/image";
-import ImageWebDesktop from "@/assets/images/image-web-3-desktop.jpg";
-import { Button } from "@/components";
+import Image from 'next/image';
+import ImageWebDesktop from '@/assets/images/image-web-3-desktop.jpg';
+import { Button } from '@/components';
 
 export default function MainArticle({
   data,

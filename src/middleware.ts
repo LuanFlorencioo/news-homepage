@@ -27,7 +27,7 @@ export function middleware(request: NextRequest) {
     const locale = getLocale(request)
     return NextResponse.redirect(
       new URL(
-        `/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
+        `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
         request.url
       )
     )
@@ -35,5 +35,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|images).*)'],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|images).*)"],
 }

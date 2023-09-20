@@ -1,7 +1,7 @@
-import { Locale } from "../../../i18n-config";
-import { getDictionary } from "../../../lib/get-dictionary";
-import Menu from "./Menu";
-import Logo from "./Logo";
+import { Locale } from '../../../i18n-config';
+import { getDictionary } from '../../../lib/get-dictionary';
+import Menu from './Menu';
+import Logo from './Logo';
 
 export default async function Header({
   lang,

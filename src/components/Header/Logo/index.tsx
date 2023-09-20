@@ -1,5 +1,5 @@
-import Image from "next/image";
-import WLogo from "@/assets/images/logo.svg";
+import Image from 'next/image';
+import WLogo from '@/assets/images/logo.svg';
 
 export default function Logo() {
   return (
