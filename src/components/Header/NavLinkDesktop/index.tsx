@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import Switch from "../Switch";
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
+import Switch from '../Switch';
 
 export default function NavLinkDesktop({
   navLink

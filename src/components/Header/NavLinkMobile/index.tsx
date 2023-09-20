@@ -1,8 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import IconMenuClose from "@/assets/images/icon-menu-close.svg";
-import Switch from "../Switch";
+import { usePathname } from 'next/navigation';
+import Image from 'next/image';
+import Link from 'next/link';
+import IconMenuClose from '@/assets/images/icon-menu-close.svg';
+import Switch from '../Switch';
 
 export default function NavLinkMobile({
   btnCloseEvent,

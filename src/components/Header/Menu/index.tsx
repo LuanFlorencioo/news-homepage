@@ -1,9 +1,9 @@
-"use client";
-import { useEffect, useState } from "react";
-import Image from "next/image";
-import IconMenuOpen from "@/assets/images/icon-menu.svg";
-import NavLinkMobile from "../NavLinkMobile";
-import NavLinkDesktop from "../NavLinkDesktop";
+'use client';
+import { useEffect, useState } from 'react';
+import Image from 'next/image';
+import IconMenuOpen from '@/assets/images/icon-menu.svg';
+import NavLinkMobile from '../NavLinkMobile';
+import NavLinkDesktop from '../NavLinkDesktop';
 
 export default function Menu({
   navLink
@@ -17,20 +17,20 @@ export default function Menu({
 
   useEffect(() => {
     const checkIsMobile = () => {
-      const mediaQuery = window.matchMedia('(max-width: 768px)');
+      const mediaQuery = window.matchMedia("(max-width: 768px)");
       setIsMobile(mediaQuery.matches);
     };
 
     checkIsMobile();
 
-    const mediaQuery = window.matchMedia('(max-width: 768px)');
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
     const mediaListener = (e: MediaQueryListEvent) => {
       setIsMobile(e.matches);
     };
-    mediaQuery.addEventListener('change', mediaListener);
+    mediaQuery.addEventListener("change", mediaListener);
 
     return () => {
-      mediaQuery.removeEventListener('change', mediaListener);
+      mediaQuery.removeEventListener("change", mediaListener);
     };
   }, []);
 
