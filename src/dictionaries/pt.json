@@ -1,0 +1,50 @@
+{
+  "navLinks": {
+    "home": "Início",
+    "new": "Recentes",
+    "popular": "Populares",
+    "trending": "Tendências",
+    "categories": "Categorias"
+  },
+  "homepage": {
+    "mainArticle": {
+      "title": "O futuro brilhante da Web 3.0?",
+      "description": "Mergulhamos na próxima evolução da web que pretende colocar o poder das plataformas de volta nas mãos das pessoas. Mas será que está realmente cumprindo sua promessa?",
+      "buttonLabel": "Leia Mais"
+    },
+    "newArticles": {
+      "title": "Recentes",
+      "articles": [
+        {
+          "title": "Hidrogênio VS Elétricos",
+          "description": "Carros movidos a hidrogênio algum dia alcançarão os VVs?"
+        },
+        {
+          "title": "As desvantagens de Arte IA",
+          "description": "Quais são os possíveis efeitos de geração de imagens IA sob demanda?"
+        },
+        {
+          "title": "Contribuição de capital de risco está acabando?",
+          "description": "Contribuição privada de risco caiu 50%. Entenda o que isso significa."
+        }
+      ]
+    },
+    "trendingArticles": [
+      {
+        "title": "Revivendo PCs retrô",
+        "description": "O que acontece quando PCs antigos são atualizados?",
+        "image": "/images/image-retro-pcs.jpg"
+      },
+      {
+        "title": "Top 10 laptops de 2022",
+        "description": "Nossas melhores escolhas visando lucro e orçamentos.",
+        "image": "/images/image-top-laptops.jpg"
+      },
+      {
+        "title": "O crescimento dos jogos",
+        "description": "Como a pandemia gerou novas oportunidades.",
+        "image": "/images/image-gaming-growth.jpg"
+      }
+    ]
+  }
+}

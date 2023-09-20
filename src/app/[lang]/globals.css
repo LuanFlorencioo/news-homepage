@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .font-title-100 {
+    @apply font-extrabold text-[40px];
+  }
+
+  .font-title-200 {
+    @apply font-bold text-[28px];
+  }
+
+  .font-title-300 {
+    @apply font-extrabold text-xl;
+  }
+
+  .font-title-400 {
+    @apply font-extrabold text-lg;
+  }
+
+  .font-text-normal {
+    @apply font-normal text-[15px] leading-[24px];
+  }
+
+  .font-text-button {
+    @apply font-bold text-[15px] tracking-[1.5px] uppercase;
+  }
+
+  .font-text-numeric {
+    @apply font-bold text-[32px];
+  }
+
+  .font-text-link {
+    @apply font-bold text-lg;
+  }
+}
+
+body {
+  background: #FFFDFA;
+  position: relative;
+}

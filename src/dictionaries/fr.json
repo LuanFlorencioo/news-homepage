@@ -1,0 +1,50 @@
+{
+  "navLinks": {
+    "home": "Commencer",
+    "new": "Récent",
+    "popular": "Populaire",
+    "trending": "Tendances",
+    "categories": "Catégories"
+  },
+  "homepage": {
+    "mainArticle": {
+      "title": "Le brillant avenir du Web 3.0?",
+      "description": "Nous nous penchons sur la prochaine évolution du Web, qui prétend remettre le pouvoir des plateformes entre les mains des citoyens. Mais tient-il vraiment ses promesses?",
+      "buttonLabel": "En savoir plus"
+    },
+    "newArticles": {
+      "title": "Récent",
+      "articles": [
+        {
+          "title": "Hydrogène vs Électricité",
+          "description": "Les voitures à hydrogène rattraperont-elles un jour les VV?"
+        },
+        {
+          "title": "Les inconvénients de l'art de l'IA",
+          "description": "Quels sont les effets indésirables possibles de la génération d'images IA?"
+        },
+        {
+          "title": "Le financement du VC se tarit-il?",
+          "description": "Le financement privé des sociétés de VC est en baisse de 50%."
+        }
+      ]
+    },
+    "trendingArticles": [
+      {
+        "title": "Faire revivre les PC rétro",
+        "description": "Que se passe-t-il lorsque les anciens PC sont mis à niveau?",
+        "image": "/images/image-retro-pcs.jpg"
+      },
+      {
+        "title": "Top 10 Laptops de 2022",
+        "description": "Nos meilleurs choix pour différents besoins et budgets.",
+        "image": "/images/image-top-laptops.jpg"
+      },
+      {
+        "title": "La croissance du jeu",
+        "description": "Comment la pandémie a ouvert de nouvelles opportunités.",
+        "image": "/images/image-gaming-growth.jpg"
+      }
+    ]
+  }
+}
