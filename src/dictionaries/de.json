@@ -1,0 +1,50 @@
+{
+  "navLinks": {
+    "home": "Start",
+    "new": "Jüngste",
+    "popular": "Beliebt",
+    "trending": "Tendenzen",
+    "categories": "Kategorien"
+  },
+  "homepage": {
+    "mainArticle": {
+      "title": "Web 3.0, eine glänzende Zukunft?",
+      "description": "Wir tauchen in die nächste Entwicklung des Webs ein, die den Anspruch erhebt, die Macht der Plattformen wieder in die Hände der Menschen zu legen. Aber hält es wirklich, was es verspricht?",
+      "buttonLabel": "mehr lesen"
+    },
+    "newArticles": {
+      "title": "Jüngste",
+      "articles": [
+        {
+          "title": "Wasserstoff vs. Elektrizität",
+          "description": "Werden Wasserstoffautos jemals VVs einholen?"
+        },
+        {
+          "title": "Die Nachteile der KI-Kunst",
+          "description": "Welche möglichen Auswirkungen hat die On-Demand-KI-Bildgebung?"
+        },
+        {
+          "title": "Geht der Risikokapital Beitrag zur Neige?",
+          "description": "Der private Risikobeitrag sank um 50 %. Verstehen Sie, was das bedeutet."
+        }
+      ]
+    },
+    "trendingArticles": [
+      {
+        "title": "Neue Retro-PCs",
+        "description": "Was passiert, wenn alte PCs aufgerüstet werden?",
+        "image": "/images/image-retro-pcs.jpg"
+      },
+      {
+        "title": "Beste Laptops",
+        "description": "Unsere besten Tipps für Gewinn und Budget.",
+        "image": "/images/image-top-laptops.jpg"
+      },
+      {
+        "title": "Das Wachstum des Gamings",
+        "description": "Möglichkeiten einer Pandemie.",
+        "image": "/images/image-gaming-growth.jpg"
+      }
+    ]
+  }
+}

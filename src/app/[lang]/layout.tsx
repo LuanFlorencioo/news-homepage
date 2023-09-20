@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Header } from '@/components'
+import { Locale } from '../../../i18n-config'
 
 const inter = Inter({
   weight: ['400', '700', '800'],
@@ -15,13 +16,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: { lang },
 }: {
-  children: React.ReactNode
+  children: React.ReactNode,
+  params: { lang: Locale },
 }) {
   return (
-    <html lang="en">
+    <html lang={lang}>
       <body className={inter.className}>
-        <Header />
+        <Header lang={lang} />
         {children}
       </body>
     </html>
