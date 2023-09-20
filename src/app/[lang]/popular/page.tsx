@@ -1,6 +1,6 @@
-import { Locale } from "../../../../i18n-config";
-import { getDictionary } from "../../../../lib/get-dictionary"
-import { ListEmpty } from "@/components";
+import { Locale } from '../../../../i18n-config';
+import { getDictionary } from '../../../../lib/get-dictionary'
+import { ListEmpty } from '@/components';
 
 export default async function Popular({
   params: { lang },
