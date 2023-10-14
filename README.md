@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Logo](/public/logo-doc.svg)
 
-## Getting Started
+# News Homepage
 
-First, run the development server:
+Uma página inicial de notícias estáticas que se ajusta a diferentes idiomas. Este projeto surgiu como um desafio apresentado pela plataforma [Frontend Mentor](https://www.frontendmentor.io/home), proporcionando-me a oportunidade de aprimorar e aplicar minhas habilidades em desenvolvimento web. Continue lendo para descobrir mais detalhes sobre este projeto nos próximos tópicos...
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Tópicos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [Links →](#links)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. [Sobre →](#sobre)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. [Tecnologias →](#tecnologias)
 
-## Learn More
+4. [Aprendizado →](#aprendizado)
 
-To learn more about Next.js, take a look at the following resources:
+5. [Screenshots →](#screenshots)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Confira e experimente a aplicação no ar clicando no botão logo abaixo ↓
 
-## Deploy on Vercel
+![Link Button to App](https://img.shields.io/badge/aplicação_web-000?style=for-the-badge&logo=vercel)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Foi seguido um sistema de design feito no figma com a prototipagem e cores que seriam usada no projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Link Button to Figma](https://img.shields.io/badge/Design_System-000?style=for-the-badge&logo=figma)
+
+Caso queira dar um feedback, solução ou melhora no código, não hesite em enviar um issue
+
+## Sobre
+
+Este projeto surgiu como uma inspiração que tive após explorar informações e assistir vídeos relacionados à internacionalização. Inicialmente, era concebido como uma página inicial estática, mas, à medida que o desenvolvi, decidi ir além, incorporando a funcionalidade de permitir que os usuários escolham seu idioma preferido para visualizar a página.
+
+Ao longo do desenvolvimento, optei por deixar de lado preocupações com roteamento, links e páginas relacionadas a postagens, pois o objetivo principal era aplicar a internacionalização de forma eficaz em um projeto Next.js.
+
+É fundamental destacar que esta aplicação foi cuidadosamente desenvolvida para proporcionar uma experiência excepcional em dispositivos móveis. Portanto, ela é responsiva e adaptável para funcionar perfeitamente em navegadores de celulares, tablets e outros dispositivos móveis.
+
+## Tecnologias
+
+- [![REACT](https://img.shields.io/badge/react-000?style=for-the-badge&logo=react)](https://react.dev/)
+- [![NEXT](https://img.shields.io/badge/next-000?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+- [![TAILWINDCSS](https://img.shields.io/badge/tailwindcss-000?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
+
+## Aprendizado
+
+Durante o desenvolvimento deste projeto, o aprendizado mais significativo e notável foi a importância e o impacto da internacionalização em uma aplicação web. A capacidade de tornar uma aplicação acessível em diversos idiomas se revelou uma habilidade valiosa que oferece um diferencial notável.
+
+## Screenshots
+
+![Screenshot](/public/screenshot.png)
